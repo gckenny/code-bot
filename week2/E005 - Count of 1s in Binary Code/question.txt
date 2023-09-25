@@ -1,0 +1,30 @@
+### Problem Description
+
+Little T has recently been a victim of phishing and has decided to study the binary codes used in phishing email transmissions. To simplify the problem, let's assume that the binary code has a length of 8. The binary code is a string where each character is either 0 or 1, such as "11110000" (without quotes). Write a function:
+
+```python3
+def solution(bcode: str) -> int:
+    pass
+```
+ 
+ to help little T would like to know how many 1s there are in a certain phishing email's binary code.  
+
+### Input
+
+The input is only one string, which is a binary code of length 8.
+
+### Output
+
+The output should be an integer representing the number of 1s in the binary code.
+
+### Input Example
+
+```
+bcode = "11110000"
+```
+
+### Output Example
+
+```
+4
+```

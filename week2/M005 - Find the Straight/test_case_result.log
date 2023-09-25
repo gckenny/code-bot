@@ -1,0 +1,52 @@
+..FE...FF.
+======================================================================
+ERROR: test_simple3 (__main__.M005.test_simple3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M005 - Find the Straight/test_case_new.py", line 17, in test_simple3
+    self.assertEqual(solution("1a 2d 3c 4d 5f 6j 7c"), "False")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M005 - Find the Straight/test_case_new.py", line 45, in solution
+    card_list.sort(key=lambda card: 'A23456789TJQK'.index(card[0]))
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M005 - Find the Straight/test_case_new.py", line 45, in <lambda>
+    card_list.sort(key=lambda card: 'A23456789TJQK'.index(card[0]))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: substring not found
+
+======================================================================
+FAIL: test_simple2 (__main__.M005.test_simple2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M005 - Find the Straight/test_case_new.py", line 14, in test_simple2
+    self.assertEqual(solution("As 2d 3d 4h 5s 5s 5o"), "False")
+AssertionError: 'As 2d 3d 4h 5s' != 'False'
+- As 2d 3d 4h 5s
++ False
+
+
+======================================================================
+FAIL: test_simple7 (__main__.M005.test_simple7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M005 - Find the Straight/test_case_new.py", line 29, in test_simple7
+    self.assertEqual(solution("4s 5c 8d Ah 2c 2s 3s"), "Ah 2c 3s 4s 5c")
+AssertionError: 'False' != 'Ah 2c 3s 4s 5c'
+- False
++ Ah 2c 3s 4s 5c
+
+
+======================================================================
+FAIL: test_simple8 (__main__.M005.test_simple8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M005 - Find the Straight/test_case_new.py", line 32, in test_simple8
+    self.assertEqual(solution("4s 5c 8d Ah 2c 2s 3d"), "Ah 2c 3d 4s 5c")
+AssertionError: 'False' != 'Ah 2c 3d 4s 5c'
+- False
++ Ah 2c 3d 4s 5c
+
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+FAILED (failures=3, errors=1)

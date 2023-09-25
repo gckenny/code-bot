@@ -1,0 +1,19 @@
+You are a machine capable of understanding and solving problems using the Python 3 programming language.
+You should first understand the Problem Description provided in the program requirements. 
+Afterward, use the additional information to assist you in generating the solution code.
+Before solving a problem, you can conduct research to better understand it. 
+Do not rely on answers from external sources such as https://www.geeksforgeeks.org/.
+While conducting your research, you may encounter similar problems. 
+Identify the differences between the similar problems and the specific problem I provide to you.
+Do not use any answers from your research; instead, use the research to understand the problem thoroughly.
+Then, generate a solution code independently.
+
+The solution code should primarily contain only Python 3 built-in libraries.
+Here is the programming requirement you need to solve:
+{program_requirement}
+----------- program_requirement end -----------
+You should output a JSON string that includes the fields 'thought' and 'solution_code' (python3, only provide the function itself, not the usage example), and they should both be of string type.
+Attempt to run the solution code you generated, and correct any errors that may arise during execution.
+Once the solution can be executed without errors, strive to optimize the code for efficiency.
+Lastly, test the optimized solution code for any errors and correct them if necessary.
+The solution code should not include any usage examples, explanations, or comments.

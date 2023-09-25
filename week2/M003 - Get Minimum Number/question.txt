@@ -1,0 +1,51 @@
+### Problem Description
+
+Given a string 'N' representing an 'm'-digit non-negative integer, write a function:
+
+```python3
+def solution(n: str, x: int) -> str:
+    pass
+```
+
+to remove 'x' digits from 'N' to obtain the smallest possible remaining number 'Y'.
+
+### Constraints
+
+* m >= x;
+* 'N' will not contain leading zeros.
+
+### Input
+
+There are two inputs. The first input is the string 'N', and the second input is a positive integer 'x'.
+
+### Output
+
+The output should be the string 'Y', representing the smallest possible number after removing 'x' digits.
+
+### Input Example 1
+
+```
+n = "1432319"
+x = 3
+```
+
+### Output Example 1
+
+```
+"1219"
+```
+
+### Input Example 2
+
+```
+n = "2023"
+m = 1
+```
+
+### Output Example 2
+
+```
+"23"
+```
+
+Note: The goal is to remove 'x' digits such that the remaining number is as small as possible.

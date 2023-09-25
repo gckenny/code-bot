@@ -1,0 +1,61 @@
+FFFFFFF.
+======================================================================
+FAIL: test_simple1 (__main__.M009.test_simple1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M009 - Number of Ways to Place Queens on a Chessboard/test_case_new.py", line 11, in test_simple1
+    self.assertEqual(solution(8, [[0, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1], [1, 0, 1, 1, 1, 1, 1, 1]]), 2406)
+AssertionError: 0 != 2406
+
+======================================================================
+FAIL: test_simple2 (__main__.M009.test_simple2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M009 - Number of Ways to Place Queens on a Chessboard/test_case_new.py", line 14, in test_simple2
+    self.assertEqual(solution(5, [[1, 1, 1, 1, 1], [1, 0, 1, 1, 1], [1, 1, 1, 1, 1], [1, 0, 1, 1, 1], [1, 1, 1, 1, 1]]), 12)
+AssertionError: 0 != 12
+
+======================================================================
+FAIL: test_simple3 (__main__.M009.test_simple3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M009 - Number of Ways to Place Queens on a Chessboard/test_case_new.py", line 17, in test_simple3
+    self.assertEqual(solution(7, [[1, 1, 1, 1, 1, 1, 0], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1]]), 408)
+AssertionError: 0 != 408
+
+======================================================================
+FAIL: test_simple4 (__main__.M009.test_simple4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M009 - Number of Ways to Place Queens on a Chessboard/test_case_new.py", line 20, in test_simple4
+    self.assertEqual(solution(4, [[1, 1, 1, 1], [1, 0, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]]), 2)
+AssertionError: 0 != 2
+
+======================================================================
+FAIL: test_simple5 (__main__.M009.test_simple5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M009 - Number of Ways to Place Queens on a Chessboard/test_case_new.py", line 23, in test_simple5
+    self.assertEqual(solution(6, [[1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 0, 1], [1, 1, 1, 1, 1, 1]]), 6)
+AssertionError: 0 != 6
+
+======================================================================
+FAIL: test_simple6 (__main__.M009.test_simple6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M009 - Number of Ways to Place Queens on a Chessboard/test_case_new.py", line 26, in test_simple6
+    self.assertEqual(solution(7, [[1, 1, 1, 1, 1, 1, 0], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 0], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1]]), 270)
+AssertionError: 0 != 270
+
+======================================================================
+FAIL: test_simple7 (__main__.M009.test_simple7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M009 - Number of Ways to Place Queens on a Chessboard/test_case_new.py", line 29, in test_simple7
+    self.assertEqual(solution(6, [[1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]]), 12)
+AssertionError: 0 != 12
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (failures=7)

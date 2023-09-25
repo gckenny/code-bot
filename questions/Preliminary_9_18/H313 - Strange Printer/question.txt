@@ -1,0 +1,54 @@
+### Problem Description
+
+There is a unique printer that operates under two distinct conditions:
+
+1. The printer can only produce a sequence of identical characters in each print operation.
+2. In every round, the printer can commence a new print sequence, initiating and concluding at any position within the string. This effectively allows it to cover or overwrite any pre-existing characters.
+
+Given a string, denoted as 's', the objective is to determine the minimum number of round required for the printer to
+successfully print the entire string.
+
+You need to implement function as follows:
+
+```python
+def solution(s: str) -> int:
+    # s: a string of lowercase English letters.
+    pass
+```
+
+### Input Example 1
+
+````
+s = "aaabbb"
+````
+
+### Output Example 1
+
+````
+2
+````
+
+### Explanation
+
+Print "aaa" first and then print "bbb".
+
+### Input Example 2
+
+````
+s = "aba"
+````
+
+### Output Example 2
+
+````
+2
+````
+
+### Explanation
+
+Print "aaa" first and then print "b" from the second place of the string, which will cover/overwrite the existing character 'a' at the same place.
+
+### Constraints
+
+- 1 <= s.length <= 100
+- s consists of lowercase English letters.

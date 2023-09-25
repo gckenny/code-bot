@@ -1,0 +1,51 @@
+FFF.F
+======================================================================
+FAIL: test_simple1 (__main__.E003.test_simple1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/E003 - Explain String/test_case_new.py", line 11, in test_simple1
+    self.assertEqual(solution("Good3Bye"), "GoodGoodGood")
+AssertionError: 'GoodoodBye' != 'GoodGoodGood'
+- GoodoodBye
++ GoodGoodGood
+
+
+======================================================================
+FAIL: test_simple2 (__main__.E003.test_simple2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/E003 - Explain String/test_case_new.py", line 14, in test_simple2
+    self.assertEqual(solution("abc11db0bm3ee3"), "abcabcabcabcabcabcabcabcabcabcabcbmbmbmeeeeee")
+AssertionError: 'abcabccdbabcabccdbbmbbmeemee' != 'abcabcabcabcabcabcabcabcabcabcabcbmbmbmeeeeee'
+- abcabccdbabcabccdbbmbbmeemee
++ abcabcabcabcabcabcabcabcabcabcabcbmbmbmeeeeee
+
+
+======================================================================
+FAIL: test_simple3 (__main__.E003.test_simple3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/E003 - Explain String/test_case_new.py", line 17, in test_simple3
+    self.assertEqual(solution("13baa3b4"), "baabaabaabbbb")
+AssertionError: 'baabaabbaab' != 'baabaabaabbbb'
+- baabaabbaab
+?         ^^
++ baabaabaabbbb
+? +++        ^
+
+
+======================================================================
+FAIL: test_simple5 (__main__.E003.test_simple5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/E003 - Explain String/test_case_new.py", line 23, in test_simple5
+    self.assertEqual(solution("A0010B00B010"), "AAAAAAAAAABBBBBBBBBB")
+AssertionError: 'AAAAAAAAAAAABAAAAAAAAAAAABAAAAAAAAAAAABAAAAAAAAAAAA[73 chars]ABBB' != 'AAAAAAAAAABBBBBBBBBB'
+- AAAAAAAAAAAABAAAAAAAAAAAABAAAAAAAAAAAABAAAAAAAAAAAABBBAAAAAAABBBAAAAAAAAAAAABAAAAAAAAAAAABAAAAAAAAAAAABAAAAAAAAAAAABBBAAAAAAABBB
++ AAAAAAAAAABBBBBBBBBB
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=4)

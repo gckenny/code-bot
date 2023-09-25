@@ -1,0 +1,35 @@
+### Problem Description
+
+There are n stairs in front of you, some of which are broken. Mr. Zhao can only step one or two stairs at a time. If he steps one stair for the first time, he stands on the first stair; if he steps two stairs for the first time, he stands on the second stair. If Mr. Zhao is not allowed to step on the broken stairs, please write a function:
+
+```python3
+def solution(n: int, broken: list[int]) -> int:
+    pass
+```
+
+to calculate how many ways he can reach the top of the stairs.
+
+### Input
+
+The first input is the total number of stairs n.
+The second input is an array, each element in the array represents the position of the broken stairs.
+
+### Input Example
+
+```
+n = 3, broken = [1]
+```
+
+This means that there are a total of 3 stairs, and there is one broken stair, which is the first stair.
+
+### Output
+
+The total number of different ways to reach the top. If it is impossible to reach the top, output 0.
+
+### Output Example
+
+```
+1
+```
+
+This means there is only one way to reach the top. 

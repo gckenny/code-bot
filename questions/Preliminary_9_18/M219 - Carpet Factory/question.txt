@@ -1,0 +1,36 @@
+# Carpet Factory
+
+### Description
+A carpet factory has a major client that has requested the production of square carpets. The purchased fabric comes in an m × n rectangular shape, and in order to optimize production efficiency, the factory aims to minimize the number of cuts required to transform the rectangular fabric into squares.
+Return the minimum number of moves needed.
+
+On each move you can select a rectangle and cut it into two rectangles in such a way that all side lengths remain integers.
+
+Write a function according to the following example:
+```python3
+def solution(m: int, n: int) -> int:
+    pass
+```
+
+### Constraints
+1 ≤ m,n ≤ 500
+
+### Example 1
+Input
+```
+m = 2
+n = 8
+```
+  
+Output
+```
+3 
+```
+ 
+Explanation
+```
+It takes 3 moves to cut a 2x8 rectangle into squares:
+-Cut it into 2x2 and 2x6.
+-Cut the 2x6 into 2x2 and 2x4.
+-Cut the 2x4 into 2x2 and 2x2.
+```

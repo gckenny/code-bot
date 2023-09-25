@@ -1,0 +1,28 @@
+### Problem Description
+
+Given an n * n (n <= 8) chessboard, where some positions cannot hold a queen. Now you are to place n black queens and n white queens on the chessboard, such that any two black queens are not in the same row, same column, or same diagonal, and any two white queens are not in the same row, same column, or same diagonal. Write a function:
+
+```python3
+def solution(n:int, chessboard: list[list[int]]) -> int:
+    pass
+```
+
+to calculate how many different ways there are to place the queens.
+
+### Input
+
+The input includes two items. The first item is a positive integer n, and the second item is an n * n two-dimensional array representing the chessboard. The elements of the array can only be the integer 0 or 1. If it is 1, it means that the corresponding position can hold a queen. If it is 0, it means that the corresponding position cannot hold a queen.
+
+### Input Example
+
+```
+n = 4, chessboard = [[1,1,1,1], [1,0,1,1], [1,1,1,1],[1,1,1,1]]
+```
+
+### Output
+
+The output is an integer, representing the total number of different ways to place the queens.
+
+### Output Example
+
+2

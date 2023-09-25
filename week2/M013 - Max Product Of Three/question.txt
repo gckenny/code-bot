@@ -1,0 +1,49 @@
+## Problem Statement  
+  
+Given a non-empty array `A` consisting of `N` integers, the product of a triplet `(P, Q, R)` equates to `A[P] * A[Q] * A[R]` where `0 ≤ P < Q < R < N`.   
+  
+Write a function：
+
+```python3
+def solution(a: list[int]) -> int:
+    pass
+```
+
+to find the maximal product of any triplet.  
+  
+## Inputs  
+  
+The input will be an array of integers `A`.  
+  
+## Outputs  
+  
+The output should be an integer indicating the maximal product of any triplet.  
+  
+## Example  
+  
+### Example:  
+  
+**Input:**  
+
+```
+a = [-3, 1, 2, -2, 5, 6]  
+```
+
+**Output:**  
+
+```  
+60  
+```
+
+The triplets in this example include:  
+  
+- (0, 1, 2), product is −3 * 1 * 2 = −6  
+- (1, 2, 4), product is 1 * 2 * 5 = 10  
+- (2, 4, 5), product is 2 * 5 * 6 = 60  
+  
+The maximal product is 60.  
+  
+## Constraints  
+  
+- `N` is an integer within the range [3..10,000].  
+- Each element of array `A` is an integer within the range [-1,000..1,000].  

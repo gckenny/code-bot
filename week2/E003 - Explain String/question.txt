@@ -1,0 +1,46 @@
+## Problem Description
+
+Given a string composed of letters, words, and numbers, the number represents the repetition count of the preceding string. If there is no preceding string before the number, use an empty string instead. If there is no number after the string, use 0 as the repetition count. Write a function:
+
+```python3
+def solution(s: str) -> str:
+    pass
+```
+
+to output the string according to these rules.
+
+### Input
+
+The input is the original string.
+
+### Output
+
+The output is the string after applying the repetition rules.
+
+### Input Example 1
+
+```
+s = "A0BB1C2DF3"
+```
+
+### Output Example 1
+
+```
+"BBCCDFDFDF"
+```
+
+### Input Example 2
+
+```
+s = "Hello2World3"
+```
+
+### Output Example 2
+
+```
+"HelloHelloWorldWorldWorld"
+```
+
+### Note
+
+The number following a string or letter indicates the times the preceding string or letter is to be repeated. In case of no preceding string or letter before a number, an empty string is assumed. If a string or letter does not have a following number, it is assumed to be followed by 0. The output should be formed by applying these rules to the input string.

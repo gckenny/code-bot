@@ -1,0 +1,28 @@
+Problem Description:
+
+Implement a non-standard Huffman encoder. Compared to the standard Huffman encoder, this encoder needs to use ternary (base-3) numbers for encoding, and it should maintain the property of Huffman encoding that the total length of the encoded output is minimized.
+
+Encode a given ASCII string input using this encoder. Write a function:
+
+```python3
+def solution(s:str) -> int:
+    pass
+```
+
+to output the number of ternary digits used in the encoded string.
+
+Please note, the standard Huffman encoding method is as follows: Firstly, queue according to the size of the probability of occurrence, add the two smallest probabilities together, and queue as a new probability with the remaining probabilities. Repeat this process until the total probability is 1. Each time you add, assign "0" and "1" to the two added probabilities. When reading out, start from this symbol and go all the way to the final "1". Arrange the "0" and "1" encountered on the route in order from the lowest bit to the highest bit, which is the Huffman code of the symbol.
+
+Example:
+
+Input:
+
+"adsfaerwkeljfasodfjoqweirfaskdh"
+
+Output:
+
+74
+
+Note:
+
+The problem is to implement a non-standard Huffman encoder that uses ternary numbers for encoding. The total length of the encoded output should be minimized. The output is the number of ternary digits used in the encoded string.

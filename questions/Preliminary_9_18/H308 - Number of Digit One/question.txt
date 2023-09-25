@@ -1,0 +1,40 @@
+
+
+### Problem Description
+
+Given two integers `m` and `n`, count the total number of digit 1 appearing in all non-negative integers more than m and less than or equal to n. Write a function:
+
+```python3
+def solution(m: int, n: int) -> int:
+    pass
+```
+
+
+### Input
+
+* `m` is lower bound
+
+* `n` is upper bound
+
+### Output
+
+The total number of digit 1 appearing in all non-negative integers more than m and less than or equal to n
+
+### Input Example
+
+
+```
+m = 21, n = 100
+```
+
+
+### Output Example
+
+```
+8
+```
+
+### Constraints
+
+* 0 <= m,n <= 10^9
+* m <= n

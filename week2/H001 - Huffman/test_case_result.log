@@ -1,0 +1,53 @@
+EEEE.
+======================================================================
+ERROR: test_simple1 (__main__.H001.test_simple1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/H001 - Huffman/test_case_new.py", line 11, in test_simple1
+    self.assertEqual(solution("ldsfaiuerlkjdsaflkcareajlkuiow.adsfkl&^*"), 102)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/H001 - Huffman/test_case_new.py", line 64, in solution
+    total_digits += len(ternary_codes[char])
+                        ~~~~~~~~~~~~~^^^^^^
+KeyError: 'l'
+
+======================================================================
+ERROR: test_simple2 (__main__.H001.test_simple2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/H001 - Huffman/test_case_new.py", line 14, in test_simple2
+    self.assertEqual(solution("890324578ifaj,k,jfasdjkjuieraskjuierwjkuser"), 115)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/H001 - Huffman/test_case_new.py", line 64, in solution
+    total_digits += len(ternary_codes[char])
+                        ~~~~~~~~~~~~~^^^^^^
+KeyError: '8'
+
+======================================================================
+ERROR: test_simple3 (__main__.H001.test_simple3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/H001 - Huffman/test_case_new.py", line 17, in test_simple3
+    self.assertEqual(solution("xxkdafkuioerwqhjkhasdflladfccuiew314985342983452asfmnmnasfd"), 172)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/H001 - Huffman/test_case_new.py", line 64, in solution
+    total_digits += len(ternary_codes[char])
+                        ~~~~~~~~~~~~~^^^^^^
+KeyError: 'x'
+
+======================================================================
+ERROR: test_simple4 (__main__.H001.test_simple4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/H001 - Huffman/test_case_new.py", line 20, in test_simple4
+    self.assertEqual(solution("13413241324kxxxxxxxkjkkasfdjk89031247901324"), 98)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/H001 - Huffman/test_case_new.py", line 64, in solution
+    total_digits += len(ternary_codes[char])
+                        ~~~~~~~~~~~~~^^^^^^
+KeyError: '1'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=4)

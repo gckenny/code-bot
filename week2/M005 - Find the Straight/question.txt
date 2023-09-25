@@ -1,0 +1,41 @@
+### Problem Description
+
+In a deck of poker cards (excluding jokers), you randomly draw seven cards. Determine if it's possible to form a straight with five of these cards.
+
+A poker card is defined as a string of two characters where the first character represents the rank (A,2,3,4,5,6,7,8,9,T,J,Q,K) and the second character represents the suit (s,d,c,h). 
+
+Write a function:
+
+```python3
+def solution(cards: str) -> str:
+    pass
+```
+
+to output the lowest possible straight. If multiple straights share the same rank, select the one with the smallest suit. The suit hierarchy is as follows: s > d > c > h.
+
+If a straight cannot be formed, output 'False'.
+
+### Input
+
+The input is a string consisting of seven cards separated by spaces.
+
+### Output
+
+The output should be a string of the five cards that make up the straight, separated by spaces.
+
+### Input Example
+
+```
+cards = "As 2d 3d 4h 5s 8c Kc"
+```
+
+### Output Example
+
+```
+"As 2d 3d 4h 5s"
+```
+
+### Note
+
+* A straight is defined as five cards of sequential rank. For example, "Tc Js Qd Kd As" is also a straight and is greater than "9s Tc Js Qd Kd".
+* A card with either rank (A,2,3,4,5,6,7,8,9,T,J,Q,K) or suit (s,d,c,h) beyond the scope can't be used.

@@ -1,0 +1,137 @@
+{
+    "week2/E003": {
+        "case_time": 55.0,
+        "total_test_case": 25,
+        "fail_case": 19,
+        "error_case": 0,
+        "success_case": 6,
+        "total_round": 5,
+        "max_success_case": 3,
+        "max_score": 0.6,
+        "one_round_test_case": 5,
+        "average_run_time": 11.0,
+        "pass_rate": 0.24
+    },
+    "week2/E005": {
+        "case_time": 7.0,
+        "total_test_case": 12,
+        "fail_case": 0,
+        "error_case": 0,
+        "success_case": 12,
+        "total_round": 1,
+        "max_success_case": 12,
+        "max_score": 1.0,
+        "one_round_test_case": 12,
+        "average_run_time": 7.0,
+        "pass_rate": 1.0
+    },
+    "week2/H001": {
+        "case_time": 142.0,
+        "total_test_case": 25,
+        "fail_case": 0,
+        "error_case": 24,
+        "success_case": 1,
+        "total_round": 5,
+        "max_success_case": 1,
+        "max_score": 0.2,
+        "one_round_test_case": 5,
+        "average_run_time": 28.4,
+        "pass_rate": 0.04
+    },
+    "week2/M001": {
+        "case_time": 77.0,
+        "total_test_case": 30,
+        "fail_case": 25,
+        "error_case": 0,
+        "success_case": 5,
+        "total_round": 5,
+        "max_success_case": 2,
+        "max_score": 0.3333333333333333,
+        "one_round_test_case": 6,
+        "average_run_time": 15.4,
+        "pass_rate": 0.16666666666666666
+    },
+    "week2/M003": {
+        "case_time": 58.0,
+        "total_test_case": 35,
+        "fail_case": 20,
+        "error_case": 0,
+        "success_case": 15,
+        "total_round": 5,
+        "max_success_case": 3,
+        "max_score": 0.42857142857142855,
+        "one_round_test_case": 7,
+        "average_run_time": 11.6,
+        "pass_rate": 0.42857142857142855
+    },
+    "week2/M005": {
+        "case_time": 82.0,
+        "total_test_case": 50,
+        "fail_case": 15,
+        "error_case": 20,
+        "success_case": 15,
+        "total_round": 5,
+        "max_success_case": 7,
+        "max_score": 0.7,
+        "one_round_test_case": 10,
+        "average_run_time": 16.4,
+        "pass_rate": 0.3
+    },
+    "week2/M007": {
+        "case_time": 66.0,
+        "total_test_case": 55,
+        "fail_case": 8,
+        "error_case": 0,
+        "success_case": 47,
+        "total_round": 5,
+        "max_success_case": 11,
+        "max_score": 1.0,
+        "one_round_test_case": 11,
+        "average_run_time": 13.2,
+        "pass_rate": 0.8545454545454545
+    },
+    "week2/M009": {
+        "case_time": 94.0,
+        "total_test_case": 26,
+        "fail_case": 21,
+        "error_case": 0,
+        "success_case": 5,
+        "total_round": 5,
+        "max_success_case": 1,
+        "max_score": 0.125,
+        "one_round_test_case": 8,
+        "average_run_time": 18.8,
+        "pass_rate": 0.19230769230769232
+    },
+    "week2/M011": {
+        "case_time": 9.0,
+        "total_test_case": 11,
+        "fail_case": 0,
+        "error_case": 0,
+        "success_case": 11,
+        "total_round": 1,
+        "max_success_case": 11,
+        "max_score": 1.0,
+        "one_round_test_case": 11,
+        "average_run_time": 9.0,
+        "pass_rate": 1.0
+    },
+    "week2/M013": {
+        "case_time": 9.0,
+        "total_test_case": 9,
+        "fail_case": 0,
+        "error_case": 0,
+        "success_case": 9,
+        "total_round": 1,
+        "max_success_case": 9,
+        "max_score": 1.0,
+        "one_round_test_case": 9,
+        "average_run_time": 9.0,
+        "pass_rate": 1.0
+    }
+}
+average pass rate: 0.5222091242091242
+pass success case number: 60
+average all pass case number: 6.0
+normalize score: 6.386904761904762
+average round normalize score: 0.6386904761904761

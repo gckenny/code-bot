@@ -1,0 +1,45 @@
+### Problem Description
+
+Oliver is driving an electric car and follows a planned route that is connected by each battery station.
+Each charging station has its own capacity for storing batteries. The journey starts at the first charging station and
+ends at the last charging station, which is the destination. At each charging station along the route, Oliver can charge
+his car with a number of batteries when he arrives at any charging station. He is free to drive straight ahead
+until the batteries are completely drained. Oliver needs to refill the car util he reaches his final destination.
+
+Given a sequence `s` representing the number of batteries available at each station along the route, you should find the
+minimum rounds from start to the end of `s`. In each round, Oliver start from one station and stop at another station when batteries are completely drained.
+If it is not possible to reach the end of `s`, the expected result is -1.
+
+You need to implement function as follows:
+
+```python
+def solution(s: list[int]) -> int:
+    # s: a sequence of the number of batteries at each station.
+    pass
+```
+
+### Input Example
+
+```
+s = [1,1,2,1]
+```
+
+### Output Example
+
+```
+3
+```
+
+### Explanation
+
+In the first round, Oliver starts from the first element of `s` and fills up with 1 battery. He then moves forward to
+station 1. Second round, there is also 1 battery available. This allows Oliver to move
+forward to station 2. Third round, since station 2 has 2 batteries, Oliver reaches the end of `s`.
+
+In summary, Oliver can reach the end of `s` in 3 rounds. Therefore, the expected result is 3.
+
+### Constraints
+
+- 2 <= s.length <= 10000
+- 0 <= s[i] < s.length
+

@@ -1,0 +1,72 @@
+# Rainbow Scarf
+
+### Description
+T Company manufactures rainbow scarves that come in seven colors: red, orange, yellow, green, blue, indigo, and violet. These colors are randomly distributed across different sections of the scarf, without any specific order and with the possibility of repetitions. Given a string `s` representing the distribution of colors. Find the length of the shortest string that contains all seven colors. Return -1 if `s` does not contain all colors.
+
+r means red  
+o means orange  
+y means yellow  
+g means green  
+b means blue  
+i means indigo  
+v means violet  
+
+Write a function according to the following example:
+```python3
+def solution(s: str) -> int:
+    pass
+```
+
+
+### Constraints 
+1 <= s.length <= 1000  
+s consists of 'r','o', 'y', 'g', 'b', 'i' , 'v'.
+
+
+### Example 1
+Input
+```
+s = "goryyyybivvvvvrgoovvvbvvvivv"
+```
+
+Output
+```
+10
+```
+
+Explanation
+```
+The shortest string is "goryyyybiv"
+```
+
+
+### Example 2
+Input
+```
+s = "voybbioyrvr"
+```
+
+Output
+```
+-1
+```
+
+Explanation
+```
+s does not contain 'g'
+```
+
+
+### Example 3
+Input
+```
+s = "rovbyrvygiogvbvior"
+```
+Output
+```
+8
+```
+Explanation
+```
+The shortest string is "byrvygio"
+```

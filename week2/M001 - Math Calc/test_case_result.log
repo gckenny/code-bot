@@ -1,0 +1,69 @@
+FFFFEF
+======================================================================
+ERROR: test_simple5 (__main__.M001.test_simple5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M001 - Math Calc/test_case_new.py", line 23, in test_simple5
+    self.assertEqual(solution([6, 5, 4, 0, 0, 0], 100), -1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M001 - Math Calc/test_case_new.py", line 49, in solution
+    return helper(m, 0)
+           ^^^^^^^^^^^^
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M001 - Math Calc/test_case_new.py", line 44, in helper
+    res = helper(remaining, idx + 1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M001 - Math Calc/test_case_new.py", line 44, in helper
+    res = helper(remaining, idx + 1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M001 - Math Calc/test_case_new.py", line 44, in helper
+    res = helper(remaining, idx + 1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M001 - Math Calc/test_case_new.py", line 37, in helper
+    max_count = amount // money[idx]
+                ~~~~~~~^^~~~~~~~~~~~
+ZeroDivisionError: integer division or modulo by zero
+
+======================================================================
+FAIL: test_simple1 (__main__.M001.test_simple1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M001 - Math Calc/test_case_new.py", line 11, in test_simple1
+    self.assertEqual(solution([7, 5, 3, 3, 2, 1], 112), 216)
+AssertionError: 16 != 216
+
+======================================================================
+FAIL: test_simple2 (__main__.M001.test_simple2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M001 - Math Calc/test_case_new.py", line 14, in test_simple2
+    self.assertEqual(solution([6, 5, 4, 3, 2, 1], 24), 26)
+AssertionError: 4 != 26
+
+======================================================================
+FAIL: test_simple3 (__main__.M001.test_simple3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M001 - Math Calc/test_case_new.py", line 17, in test_simple3
+    self.assertEqual(solution([5, 3, 3, 1, 1, 1], 43), 21)
+AssertionError: 9 != 21
+
+======================================================================
+FAIL: test_simple4 (__main__.M001.test_simple4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M001 - Math Calc/test_case_new.py", line 20, in test_simple4
+    self.assertEqual(solution([10, 5, 5, 2, 2, 1], 30), 101)
+AssertionError: 3 != 101
+
+======================================================================
+FAIL: test_simple6 (__main__.M001.test_simple6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kenny/git/AI-Contest-Baseline-v.1.1.0/week2/M001 - Math Calc/test_case_new.py", line 26, in test_simple6
+    self.assertEqual(solution([1, 1, 1, 1, 1, 1], 83), -1)
+AssertionError: 83 != -1
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=5, errors=1)

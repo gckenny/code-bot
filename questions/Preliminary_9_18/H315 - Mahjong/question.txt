@@ -1,0 +1,37 @@
+### Problem Description
+
+In the game of 16-tile-Mahjong, a winning hand consists of five sets of three tiles and a pair of identical tiles. A set can be either a "chow" (sequence of three consecutive tiles of the same suit) or a "pung" (three identical tiles). Given a hand of 16 Mahjong tiles (represented as number + suits), you need to determine how many different types of tiles can be added to the hand to make it win.
+Notes: For simplicity, in these problem, mahjong only consist of 1 to 9 of each suits, and 4 identical of each tile
+
+You are given a list of 16 strings, where each string represents a Mahjong tile in the format of number + suit ('D' for dots, 'C' for character, 'S' for sticks).
+
+Write a function:
+
+```python3
+def solution(hand: list[str]) -> int:
+    pass
+```
+
+ that returns the count of different types of tiles that can be added to the given hand to form a winning hand. If no tile can be added to the hand to form a winning hand, return 0.
+
+### **Input**  
+hand: A list of 16 strings representing the Mahjong tiles, where each string is a combination of a number and a suit ('D', 'C', or 'S').
+
+### **Output**
+Return the count of different types of tiles that can be added to the given hand to form a winning hand.
+
+### **Input Example**  
+
+
+```python3
+['1D','1D','1D','1S','1S','1S','1C','1C','1C','5D','5D','5D','5C','5C','5C','9D']
+```
+
+### Output Example
+
+```pyhton3
+1
+```
+
+### Explanation
+Adding '9D' can make it a winning hand.

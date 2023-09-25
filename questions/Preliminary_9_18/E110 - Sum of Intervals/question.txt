@@ -1,0 +1,50 @@
+Your customers generate numerous reports every month, with each report specifying a date range for data collection before generating the report. Today, you want to determine the total duration in seconds and minutes covered by all the reports your customers have generated in the past. You aim to design a Python program to calculate this information. Each report's start and end times will be represented as a pair of unixtime values. The input will be an array composed of time intervals, and the program's output will be the total duration in seconds and minutes covered by these time intervals. Any duration less than a minute will be discarded when converting to minutes. If there are overlapping time intervals, the overlapping segments will only be counted once.
+
+You need to implement the following function:
+```python
+def solution(intervals: list[list[int, int]]) -> list[int, int]:
+    ...
+    pass
+```
+
+Your solution function should take one parameter. The first parameter $intervals$ is an array composed of time intervals. A time interval $(a_i, b_i)$ consists of a pair of two integers. For instance, if a time interval is (1, 5), its duration in seconds would be 4.
+
+The solution function output should be an array represents a pair of integers composed of the total duration in seconds and the total duration in minutes covered by the report's time intervals. If there are overlapping time intervals, the overlapping time segments will only be counted once. For example, if two report time intervals are (1, 4) and (3, 5), since the interval (3, 4) is included in both time intervals, such overlapping intervals will be counted only once when calculating the total duration in seconds. As a result, the total duration represented by the time intervals (1, 4) and (3, 5) will be 4 seconds.
+
+# Constraints
+- $1 <= intervals.length <= 1000$
+- $-1000000000 <= a_i, b_i < 9999999999$
+
+### Input
+Your solution function should take one parameter. The first parameter $intervals$ is an array composed of time intervals. A time interval $(a_i, b_i)$ consists of a pair of two integers. For instance, if a time interval is (1, 5), its duration in seconds would be 4.
+
+### Output
+
+The solution function output should be an array represents a pair of integers composed of the total duration in seconds and the total duration in minutes covered by the report's time intervals. 
+
+### Example 1
+```
+Input: intervals=[[1, 2], [6, 10], [11, 15]]
+Output: [9, 0]
+Explanation: total seconds = (2 - 1) + (10 - 6) + (15 - 11) = 9. total minutes = 9//60 = 0
+```
+
+### Example 2
+```
+Input: intervals=[[1, 4], [7, 10], [3, 5]]
+Output: [7, 0]
+Explanation: total seconds = (5 - 1) + (10 - 7) = 7. total minutes = 7//60 = 0
+```
+
+### Example 3
+```
+Input: intervals=[[1, 5], [10, 20], [1, 6], [16, 19], [5, 11]]
+Output: [19, 0]
+Explanation: total seconds = (20 - 1) = 19. total minutes = 19//60 = 0
+```
+
+### Example 4
+```
+Input: intervals=[[0, 20], [0, 100000010], [30, 40]]
+Output: [100000010, 1666666]
+```

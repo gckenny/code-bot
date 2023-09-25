@@ -1,0 +1,44 @@
+
+Given a string S, an integer P and an integer N. Implement a pseudo-encryption algorithm as following:
+
+1. Repeat string S for P times
+2. Concatenates all the odd-indexed characters of S with all the even-indexed characters of S(odd-indexed characters in the left)
+3. Repeated step 2 for N times
+
+You need to implement the following function:
+```python
+def solution(S: str, P: int, N: int) -> int:
+    ...
+    pass
+```
+
+### Input
+Your solution function should take three parameters. The first parameter $S$ represents raw string to encrypt with. The second parameter $P$ is an integer, representing repeating raw string P times. The thrid parameter $N$ is an integer, representing run the concatenation process N times.
+
+### Output
+The solution function output should be a string, representing encrypted string.
+
+## Constraints
+$P <= 100$
+
+$N <= 10^5$
+
+If the string S is an empty value or the integer P is less than 1 or the integer N is less than 1, return S directly.
+
+### Examples 1
+```
+Input: S="012345", P=1, N=1
+Output: "135024"
+```
+
+### Examples 2
+```
+Input: S="012345", P=2, N=3
+Output: "124502350134"
+```
+
+### Examples 3
+```
+Input: S="01234", P=2, N=2
+Output: "3204310421"
+```

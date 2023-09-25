@@ -1,0 +1,55 @@
+"week2/E003 - Explain String"  result: Success: 10s, Ran 5 tests in 0.000s, FAILED (failures=2)
+"week2/E003 - Explain String"  result: Success: 11s, Ran 5 tests in 0.001s, FAILED (failures=4)
+"week2/E003 - Explain String"  result: Success: 10s, Ran 5 tests in 0.001s, FAILED (failures=4)
+"week2/E003 - Explain String"  result: Success: 13s, Ran 5 tests in 0.001s, FAILED (failures=5)
+"week2/E003 - Explain String"  result: Success: 11s, Ran 5 tests in 0.001s, FAILED (failures=4)
+"week2/E005 - Count of 1s in Binary Code"  result: Success: 7s, Ran 12 tests in 0.000s, OK
+"week2/E005 - Count of 1s in Binary Code"  result: Success: 0s, 1, OK
+"week2/E005 - Count of 1s in Binary Code"  result: Success: 0s, 1, OK
+"week2/E005 - Count of 1s in Binary Code"  result: Success: 0s, 1, OK
+"week2/E005 - Count of 1s in Binary Code"  result: Success: 0s, 1, OK
+"week2/H001 - Huffman"  result: Success: 22s, Ran 5 tests in 0.001s, FAILED (errors=5)
+"week2/H001 - Huffman"  result: Success: 22s, Ran 5 tests in 0.003s, FAILED (errors=5)
+"week2/H001 - Huffman"  result: Success: 40s, Ran 5 tests in 0.001s, FAILED (errors=5)
+"week2/H001 - Huffman"  result: Success: 18s, Ran 5 tests in 0.001s, FAILED (errors=5)
+"week2/H001 - Huffman"  result: Success: 40s, Ran 5 tests in 0.001s, FAILED (errors=4)
+"week2/H003 - Food delivery"  result: Success: 16s, , 
+"week2/H003 - Food delivery"  result: Success: 22s, , 
+"week2/H003 - Food delivery"  result: Success: 20s, , 
+"week2/H003 - Food delivery"  result: Success: 15s, , 
+"week2/H003 - Food delivery"  result: Success: 17s, , 
+"week2/M001 - Math Calc"  result: Success: 15s, Ran 6 tests in 0.001s, FAILED (failures=6)
+"week2/M001 - Math Calc"  result: Success: 13s, Ran 6 tests in 0.003s, FAILED (failures=4)
+"week2/M001 - Math Calc"  result: Success: 15s, Ran 6 tests in 0.001s, FAILED (failures=5)
+"week2/M001 - Math Calc"  result: Success: 18s, Ran 6 tests in 0.001s, FAILED (failures=5)
+"week2/M001 - Math Calc"  result: Success: 16s, Ran 6 tests in 0.001s, FAILED (failures=5, errors=1)
+"week2/M003 - Get Minimum Number"  result: Success: 13s, Ran 7 tests in 0.003s, FAILED (failures=4)
+"week2/M003 - Get Minimum Number"  result: Success: 11s, Ran 7 tests in 0.003s, FAILED (failures=4)
+"week2/M003 - Get Minimum Number"  result: Success: 9s, Ran 7 tests in 0.003s, FAILED (failures=4)
+"week2/M003 - Get Minimum Number"  result: Success: 13s, Ran 7 tests in 0.003s, FAILED (failures=4)
+"week2/M003 - Get Minimum Number"  result: Success: 12s, Ran 7 tests in 0.003s, FAILED (failures=4)
+"week2/M005 - Find the Straight"  result: Success: 12s, Ran 10 tests in 0.001s, FAILED (failures=6, errors=1)
+"week2/M005 - Find the Straight"  result: Success: 17s, Ran 10 tests in 0.001s, FAILED (errors=10)
+"week2/M005 - Find the Straight"  result: Success: 19s, Ran 10 tests in 0.001s, FAILED (failures=6)
+"week2/M005 - Find the Straight"  result: Success: 16s, Ran 10 tests in 0.001s, FAILED (errors=10)
+"week2/M005 - Find the Straight"  result: Success: 18s, Ran 10 tests in 0.001s, FAILED (failures=3, errors=1)
+"week2/M007 - Go up stairs"  result: Success: 14s, Ran 11 tests in 0.001s, FAILED (failures=2)
+"week2/M007 - Go up stairs"  result: Success: 11s, Ran 11 tests in 0.001s, FAILED (failures=2)
+"week2/M007 - Go up stairs"  result: Success: 13s, Ran 11 tests in 0.001s, FAILED (failures=2)
+"week2/M007 - Go up stairs"  result: Success: 15s, Ran 11 tests in 0.001s, FAILED (failures=2)
+"week2/M007 - Go up stairs"  result: Success: 13s, Ran 11 tests in 0.000s, OK
+"week2/M009 - Number of Ways to Place Queens on a Chessboard"  result: Success: 19s,     }, SyntaxError: unmatched '}'
+"week2/M009 - Number of Ways to Place Queens on a Chessboard"  result: Success: 18s, Ran 8 tests in 0.001s, FAILED (failures=7)
+"week2/M009 - Number of Ways to Place Queens on a Chessboard"  result: Success: 22s, Ran 8 tests in 0.001s, FAILED (failures=7)
+"week2/M009 - Number of Ways to Place Queens on a Chessboard"  result: Success: 18s,     }, SyntaxError: unmatched '}'
+"week2/M009 - Number of Ways to Place Queens on a Chessboard"  result: Success: 17s, Ran 8 tests in 0.001s, FAILED (failures=7)
+"week2/M011 - Binary Gap"  result: Success: 9s, Ran 11 tests in 0.000s, OK
+"week2/M011 - Binary Gap"  result: Success: 0s, 1, OK
+"week2/M011 - Binary Gap"  result: Success: 0s, 1, OK
+"week2/M011 - Binary Gap"  result: Success: 0s, 1, OK
+"week2/M011 - Binary Gap"  result: Success: 0s, 1, OK
+"week2/M013 - Max Product Of Three"  result: Success: 9s, Ran 9 tests in 0.000s, OK
+"week2/M013 - Max Product Of Three"  result: Success: 0s, 1, OK
+"week2/M013 - Max Product Of Three"  result: Success: 0s, 1, OK
+"week2/M013 - Max Product Of Three"  result: Success: 0s, 1, OK
+"week2/M013 - Max Product Of Three"  result: Success: 0s, 1, OK

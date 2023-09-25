@@ -1,0 +1,46 @@
+Problem Description:
+
+A food delivery rider needs to deliver meals to 'N' customers ('N' delivery points). As it gets dark, he starts from the last pick-up point (there is always only one pick-up point), delivers food to all delivery points, and then returns to his home to rest.
+
+The locations of the pick-up point, rider's home, and each delivery point are given in the form of integer coordinates (a,b) (0 ≤ a ≤ 100, 0 ≤ b ≤ 100).
+
+The distance between any two points (a1, b1) and (a2, b2) is calculated as |a1-a2| + |b1-b2|, where |a| represents the absolute value of 'a'. For example, |5| = |-5| = 5.
+
+The positions of the pick-up point, rider's home, and all delivery points are different. You should plan the optimal delivery route to reach all delivery points and then return to the rider's home among all possibilities.
+
+You are given the locations of the pick-up point, rider's home, and delivery points, with the number of delivery points ranging from 5 to 10. The rider starts from the pick-up point, finds the shortest route to visit all delivery points, and returns to the rider's home.
+
+Write a function:
+
+```python3
+def solution(locations: list[(int,int)]) -> int:
+    pass
+```
+
+to output the distance of the shortest route.
+
+Constraints:
+
+The number of delivery points is 'N', where 5 ≤ N ≤ 10. Each location (a,b) is in a bounded grid, where 0 ≤ a ≤ 100, 0 ≤ b ≤ 100, and 'a' and 'b' are integers.
+
+Input:
+
+The input includes the pick-up point, rider's home, and all delivery points (given in the order of 'ab' coordinates).
+
+Example Input:
+
+```
+locations = [(0,0), (95,95), (70,40), (30,10), (10,5), (90,70), (51,22)]
+```
+
+This represents: Pick-up point (0,0) Rider's Home (95,95) Delivery Point 1 (70,40) Delivery Point 2 (30,10) ...
+
+Output:
+
+The output should be the total distance of the delivery route.
+
+Example Output:
+
+```
+190
+```

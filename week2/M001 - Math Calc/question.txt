@@ -1,0 +1,37 @@
+### Problem Description
+
+An is going shopping at a supermarket. His mother has given him several bills with denominations of 1, 5, 10, 20, 50, and 100. The total amount to be paid at the supermarket checkout is M. An is curious about how many different combinations of bills can make up the amount M without needing any change. Write a function:
+
+```python3
+def solution(money: list[int], m: int) -> int:
+    pass
+```
+
+to help him find the answer.
+
+### Input
+
+The input consists of two parts. The first part is an array of 6 elements, representing the number of bills of each denomination (1, 5, 10, 20, 50, 100). The second part is an integer representing the total amount M that needs to be paid.
+
+### Input Example
+
+```
+money = [6, 5, 4, 3, 2, 1]
+m = 11
+```
+
+This means that there are 6 bills of 1, 5 bills of 5, 4 bills of 10, 3 bills of 20, 2 bills of 50, and 1 bill of 100. The total amount to be paid is 11.
+
+### Output
+
+The output is an integer that represents the total number of bills used in all possible combinations.
+
+### Output Example
+
+```
+12
+```
+
+For example, if the final combinations are [1,1,1,1,1,1,5], [1,5,5], and [1,10], then the number of bills used in each combination is 7, 3, and 2 respectively, and the total is 12.
+
+Note: If there are no possible combinations, the output should be -1.
